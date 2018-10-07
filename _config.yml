@@ -3,3 +3,4 @@ collections:
 exclude:
   - vendor
   - backups
+baseurl: /open-enrollment-classes-introduction-to-github
