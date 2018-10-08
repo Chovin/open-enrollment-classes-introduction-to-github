@@ -66,9 +66,7 @@ eqfeed_callback(
           "type": "Point",
           "coordinates": [
             {% if long_is_number %}
-            {{ longitude }},
-            {% endif %}
-            {% if lat_is_number %}
+            {{ longitude }}{% endif %}{% if lat_is_number %},
             {{ latitude }}
             {% endif %}
             ]
